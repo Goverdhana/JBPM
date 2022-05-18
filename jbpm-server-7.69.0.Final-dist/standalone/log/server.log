@@ -1,0 +1,447 @@
+2022-05-17 13:44:52,171 INFO  [org.jboss.modules] (main) JBoss Modules version 1.11.0.Final
+2022-05-17 13:44:57,758 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
+2022-05-17 13:44:57,794 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2022-05-17 13:44:58,857 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 23.0.2.Final (WildFly Core 15.0.1.Final) starting
+2022-05-17 13:44:58,864 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\akken\Downloads\jbpm-server\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_181\jre
+	java.io.tmpdir = C:\Users\akken\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\akken\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\akken\AppData\Local\Programs\Python\Python310\;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\akken\AppData\Local\GitHubDesktop\bin;C:\Users\akken\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\akken\AppData\Local\Microsoft\WindowsApps;C:\Users\akken\AppData\Roaming\npm;C:\Users\akken\AppData\Local\Box\Box Edit\;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_181-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_181
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.181-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\akken\Downloads\jbpm-server
+	jboss.host.name = govardhan
+	jboss.modules.dir = C:\Users\akken\Downloads\jbpm-server\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = govardhan
+	jboss.qualified.host.name = govardhan
+	jboss.server.base.dir = C:\Users\akken\Downloads\jbpm-server\standalone
+	jboss.server.config.dir = C:\Users\akken\Downloads\jbpm-server\standalone\configuration
+	jboss.server.data.dir = C:\Users\akken\Downloads\jbpm-server\standalone\data
+	jboss.server.deploy.dir = C:\Users\akken\Downloads\jbpm-server\standalone\data\content
+	jboss.server.log.dir = C:\Users\akken\Downloads\jbpm-server\standalone\log
+	jboss.server.name = govardhan
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\akken\Downloads\jbpm-server\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\akken\Downloads\jbpm-server\standalone\configuration/logging.properties
+	module.path = C:\Users\akken\Downloads\jbpm-server\modules
+	org.jboss.boot.log.file = C:\Users\akken\Downloads\jbpm-server\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_181\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\akken\Downloads\jbpm-server\jboss-modules.jar -mp C:\Users\akken\Downloads\jbpm-server\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\akken\Downloads\jbpm-server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp437
+	sun.stdout.encoding = cp437
+	user.country = US
+	user.dir = C:\Users\akken\Downloads\jbpm-server\bin
+	user.home = C:\Users\akken
+	user.language = en
+	user.name = akken
+	user.script = 
+	user.timezone = America/New_York
+	user.variant = 
+2022-05-17 13:44:58,865 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx1512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=512m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\akken\Downloads\jbpm-server\standalone\log\server.log -Dlogging.configuration=file:C:\Users\akken\Downloads\jbpm-server\standalone\configuration/logging.properties 
+2022-05-17 13:45:16,494 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.15.3.Final
+2022-05-17 13:45:28,913 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 33) WFLYCTL0033: Extension 'security' is deprecated and may not be supported in future versions
+2022-05-17 13:45:31,708 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-05-17 13:45:31,733 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 35) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-05-17 13:45:31,858 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment business-central.war
+2022-05-17 13:45:31,862 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment jbpm-casemgmt.war
+2022-05-17 13:45:31,864 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment kie-server.war
+2022-05-17 13:45:58,367 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2022-05-17 13:45:58,520 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.8.4.Final
+2022-05-17 13:45:58,584 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.8.4.Final
+2022-05-17 13:45:59,118 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 73) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2022-05-17 13:45:59,128 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 53) WFLYHEALTH0001: Activating Base Health Subsystem
+2022-05-17 13:45:59,128 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 63) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2022-05-17 13:45:59,140 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 65) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2022-05-17 13:45:59,154 INFO  [org.wildfly.extension.microprofile.jwt.smallrye._private] (ServerService Thread Pool -- 64) WFLYJWT0001: Activating WildFly MicroProfile JWT Subsystem
+2022-05-17 13:45:59,154 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 75) WFLYWS0002: Activating WebServices Extension
+2022-05-17 13:45:59,192 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.4.27.Final)
+2022-05-17 13:45:59,511 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 60) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2022-05-17 13:46:00,365 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 66) WFLYNAM0001: Activating Naming Subsystem
+2022-05-17 13:46:00,482 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.2.5.Final starting
+2022-05-17 13:46:00,544 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 55) WFLYRS0016: RESTEasy version 3.15.1.Final
+2022-05-17 13:46:01,076 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 74) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2022-05-17 13:46:01,147 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 46) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2022-05-17 13:46:01,150 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2022-05-17 13:46:01,245 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 54) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2022-05-17 13:46:01,313 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2022-05-17 13:46:01,316 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2022-05-17 13:46:01,493 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2022-05-17 13:46:01,492 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2022-05-17 13:46:01,614 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 74) WFLYUT0014: Creating file handler for path 'C:\Users\akken\Downloads\jbpm-server/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2022-05-17 13:46:01,670 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.20.Final
+2022-05-17 13:46:01,892 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2022-05-17 13:46:01,894 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) Queuing requests.
+2022-05-17 13:46:01,895 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2022-05-17 13:46:02,515 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2022-05-17 13:46:03,339 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2022-05-17 13:46:03,889 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/jBPMDS]
+2022-05-17 13:46:03,891 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2022-05-17 13:46:05,992 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2022-05-17 13:46:06,349 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-4) WFLYDM0111: Keystore C:\Users\akken\Downloads\jbpm-server\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2022-05-17 13:51:06,691 INFO  [org.jboss.errai.bus.server.cluster.noop.NoopClusteringProvider] (ServerService Thread Pool -- 91) clustering support not configured.
+2022-05-17 13:51:06,718 INFO  [org.jboss.errai.bus.server.service.bootstrap.OrderedBootstrap] (ServerService Thread Pool -- 91) starting errai bus ...
+2022-05-17 13:51:06,749 INFO  [org.jboss.errai.bus.server.service.bootstrap.DefaultComponents] (ServerService Thread Pool -- 91) using dispatcher implementation: org.jboss.errai.bus.server.SimpleDispatcher
+2022-05-17 13:51:06,764 INFO  [org.jboss.errai.bus.server.service.bootstrap.DefaultComponents] (ServerService Thread Pool -- 91) using session provider implementation: org.jboss.errai.bus.server.HttpSessionProvider
+2022-05-17 13:51:06,807 INFO  [org.jboss.errai.bus.server.service.bootstrap.LoadExtensions] (ServerService Thread Pool -- 91) searching for errai extensions ...
+2022-05-17 13:51:06,846 INFO  [org.jboss.errai.bus.server.service.bootstrap.OrderedBootstrap] (ServerService Thread Pool -- 91) errai bus started.
+2022-05-17 13:51:06,893 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 91) WFLYUT0021: Registered web context: '/jbpm-casemgmt' for server 'default-server'
+2022-05-17 13:51:06,925 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 88) WFLYUT0022: Unregistered web context: '/jbpm-casemgmt' from server 'default-server'
+2022-05-17 13:51:07,123 ERROR [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0043: Deployment unit processor org.jboss.as.ee.beanvalidation.BeanValidationFactoryDeployer@f6f973b unexpectedly threw an exception during undeploy phase POST_MODULE of deployment "jbpm-casemgmt.war": org.jboss.weld.exceptions.IllegalStateException: WELD-000229: Contextual reference of ValidatorFactoryBean [id=org.hibernate.validator.cdi.internal.ValidatorFactoryBean_default] is not valid after container jbpm-casemgmt.war shutdown
+	at org.jboss.weld.bean.proxy.ContextBeanInstance.getInstance(ContextBeanInstance.java:85)
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:105)
+	at org.hibernate.validator.AutoCloseable$ValidatorFactory$HibernateValidatorFactory917720531$Proxy$_$$_WeldClientProxy.close(Unknown Source)
+	at org.jboss.as.ee.beanvalidation.LazyValidatorFactory.close(LazyValidatorFactory.java:134)
+	at org.jboss.as.ee.beanvalidation.BeanValidationFactoryDeployer.undeploy(BeanValidationFactoryDeployer.java:130)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.safeUndeploy(DeploymentUnitPhaseService.java:251)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.stop(DeploymentUnitPhaseService.java:244)
+	at org.jboss.msc.service.ServiceControllerImpl$StopTask.stopService(ServiceControllerImpl.java:1795)
+	at org.jboss.msc.service.ServiceControllerImpl$StopTask.execute(ServiceControllerImpl.java:1764)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022-05-17 13:51:10,134 WARN  [org.kie.server.services.impl.controller.DefaultRestControllerImpl] (ServerService Thread Pool -- 89) Exception encountered while syncing with controller at http://localhost:8080/business-central/rest/controller/server/sample-server error Read timed out
+2022-05-17 13:51:10,134 WARN  [org.kie.server.services.impl.ControllerBasedStartupStrategy] (ServerService Thread Pool -- 89) Unable to connect to any controllers, delaying container installation until connection can be established
+2022-05-17 13:51:10,139 INFO  [org.kie.server.controller.websocket.client.WebSocketKieServerControllerImpl] (KieServer-ControllerConnect) Kie Server points to non Web Socket controller 'http://localhost:8080/business-central/rest/controller', using default REST mechanism
+2022-05-17 13:51:10,141 INFO  [org.kie.server.remote.rest.common.Bootstrap] (ServerService Thread Pool -- 89) KieServer (id sample-server) started successfully
+2022-05-17 13:51:10,368 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment jbpm-casemgmt.war (runtime-name: jbpm-casemgmt.war) in 3965ms
+2022-05-17 13:51:11,358 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,385 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.common.resource.KieServerRestImpl from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,386 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.common.resource.KieServerResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,387 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.drools.CommandResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,389 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.ProcessResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,390 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.RuntimeDataResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,391 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.DefinitionResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,392 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.UserTaskResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,395 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.ExecutorResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,398 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.QueryDataResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,402 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.DocumentResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,404 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.admin.ProcessAdminResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,405 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.admin.UserTaskAdminResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,406 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.casemgmt.CaseResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,407 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.casemgmt.CaseQueryResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,408 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.casemgmt.CaseAdminResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,410 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.ui.FormResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,411 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.ui.ImageResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,412 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.ui.StaticFilesResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,413 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.optaplanner.SolverResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,413 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.dmn.ModelEvaluatorResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,414 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.swagger.KieApiListingResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,418 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002210: Adding provider singleton io.swagger.jaxrs.listing.SwaggerSerializers from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:11,419 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0190: Step handler org.jboss.as.server.DeployerChainAddHandler$FinalRuntimeStepHandler@114dd1fd for operation add-deployer-chains at address [] failed -- java.util.concurrent.TimeoutException: java.util.concurrent.TimeoutException
+	at org.jboss.as.controller.OperationContextImpl.waitForRemovals(OperationContextImpl.java:525)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1559)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1513)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1496)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1360)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:912)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:762)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:468)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1415)
+	at org.jboss.as.controller.ModelControllerImpl.boot(ModelControllerImpl.java:529)
+	at org.jboss.as.controller.AbstractControllerService.boot(AbstractControllerService.java:515)
+	at org.jboss.as.controller.AbstractControllerService.boot(AbstractControllerService.java:477)
+	at org.jboss.as.server.ServerService.boot(ServerService.java:459)
+	at org.jboss.as.server.ServerService.boot(ServerService.java:412)
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:416)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022-05-17 13:51:11,420 ERROR [org.jboss.as.controller.client] (Controller Boot Thread) WFLYCTL0190: Step handler org.jboss.as.server.DeployerChainAddHandler$FinalRuntimeStepHandler@114dd1fd for operation add-deployer-chains at address [] failed -- java.util.concurrent.TimeoutException
+2022-05-17 13:51:11,422 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 89) RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.prometheus.MetricsResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+2022-05-17 13:51:12,990 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 89) WFLYUT0021: Registered web context: '/kie-server' for server 'default-server'
+2022-05-17 13:51:13,001 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 89) WFLYUT0022: Unregistered web context: '/kie-server' from server 'default-server'
+2022-05-17 13:51:13,003 INFO  [org.kie.server.services.impl.policy.PolicyManager] (ServerService Thread Pool -- 89) Policy manager stopped successfully
+2022-05-17 13:51:15,288 WARN  [org.kie.server.services.impl.controller.DefaultRestControllerImpl] (KieServer-ControllerConnect) Exception encountered while syncing with controller at http://localhost:8080/business-central/rest/controller/server/sample-server error Read timed out
+2022-05-17 13:51:16,444 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0190: Step handler org.jboss.as.domain.management.security.SecurityRealmAddHandler$ServiceInstallStepHandler@3878dd94 for operation add at address [
+    ("core-service" => "management"),
+    ("security-realm" => "ApplicationRealm")
+] failed -- java.util.concurrent.TimeoutException: java.util.concurrent.TimeoutException
+	at org.jboss.as.controller.OperationContextImpl.waitForRemovals(OperationContextImpl.java:525)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1559)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1513)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1496)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1360)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:912)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:762)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:468)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1415)
+	at org.jboss.as.controller.ModelControllerImpl.boot(ModelControllerImpl.java:529)
+	at org.jboss.as.controller.AbstractControllerService.boot(AbstractControllerService.java:515)
+	at org.jboss.as.controller.AbstractControllerService.boot(AbstractControllerService.java:477)
+	at org.jboss.as.server.ServerService.boot(ServerService.java:459)
+	at org.jboss.as.server.ServerService.boot(ServerService.java:412)
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:416)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022-05-17 13:51:16,445 ERROR [org.jboss.as.controller.client] (Controller Boot Thread) WFLYCTL0190: Step handler org.jboss.as.domain.management.security.SecurityRealmAddHandler$ServiceInstallStepHandler@3878dd94 for operation add at address [
+    ("core-service" => "management"),
+    ("security-realm" => "ApplicationRealm")
+] failed -- java.util.concurrent.TimeoutException
+2022-05-17 13:51:18,312 INFO  [org.kie.server.services.impl.KieServerImpl] (ServerService Thread Pool -- 89) Server Default Extension has been successfully unregistered as server extension
+2022-05-17 13:51:18,315 INFO  [org.kie.server.services.impl.KieServerImpl] (ServerService Thread Pool -- 89) Drools KIE Server extension has been successfully unregistered as server extension
+2022-05-17 13:51:18,320 INFO  [org.kie.server.services.impl.KieServerImpl] (ServerService Thread Pool -- 89) jBPM KIE Server extension has been successfully unregistered as server extension
+2022-05-17 13:51:18,321 INFO  [org.kie.server.services.impl.KieServerImpl] (ServerService Thread Pool -- 89) Case-Mgmt KIE Server extension has been successfully unregistered as server extension
+2022-05-17 13:51:18,321 INFO  [org.kie.server.services.impl.KieServerImpl] (ServerService Thread Pool -- 89) jBPM-UI KIE Server extension has been successfully unregistered as server extension
+2022-05-17 13:51:18,322 INFO  [org.kie.server.services.impl.KieServerImpl] (ServerService Thread Pool -- 89) OptaPlanner KIE Server extension has been successfully unregistered as server extension
+2022-05-17 13:51:18,323 INFO  [org.kie.server.services.impl.KieServerImpl] (ServerService Thread Pool -- 89) DMN KIE Server extension has been successfully unregistered as server extension
+2022-05-17 13:51:18,323 INFO  [org.kie.server.services.impl.KieServerImpl] (ServerService Thread Pool -- 89) Swagger KIE Server extension has been successfully unregistered as server extension
+2022-05-17 13:51:18,324 INFO  [org.kie.server.services.impl.KieServerImpl] (ServerService Thread Pool -- 89) Prometheus KIE Server extension has been successfully unregistered as server extension
+2022-05-17 13:51:18,324 INFO  [org.kie.server.remote.rest.common.Bootstrap] (ServerService Thread Pool -- 89) KieServer (id sample-server) destroyed successfully
+2022-05-17 13:51:18,344 ERROR [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0043: Deployment unit processor org.jboss.as.ee.beanvalidation.BeanValidationFactoryDeployer@f6f973b unexpectedly threw an exception during undeploy phase POST_MODULE of deployment "kie-server.war": org.jboss.weld.exceptions.IllegalStateException: WELD-000229: Contextual reference of ValidatorFactoryBean [id=org.hibernate.validator.cdi.internal.ValidatorFactoryBean_default] is not valid after container kie-server.war shutdown
+	at org.jboss.weld.bean.proxy.ContextBeanInstance.getInstance(ContextBeanInstance.java:85)
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:105)
+	at org.hibernate.validator.AutoCloseable$ValidatorFactory$HibernateValidatorFactory917720531$Proxy$_$$_WeldClientProxy.close(Unknown Source)
+	at org.jboss.as.ee.beanvalidation.LazyValidatorFactory.close(LazyValidatorFactory.java:134)
+	at org.jboss.as.ee.beanvalidation.BeanValidationFactoryDeployer.undeploy(BeanValidationFactoryDeployer.java:130)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.safeUndeploy(DeploymentUnitPhaseService.java:251)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.stop(DeploymentUnitPhaseService.java:244)
+	at org.jboss.msc.service.ServiceControllerImpl$StopTask.stopService(ServiceControllerImpl.java:1795)
+	at org.jboss.msc.service.ServiceControllerImpl$StopTask.execute(ServiceControllerImpl.java:1764)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022-05-17 13:51:18,353 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTPS listener https suspending
+2022-05-17 13:51:18,355 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2022-05-17 13:51:19,442 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment kie-server.war (runtime-name: kie-server.war) in 13039ms
+2022-05-17 13:51:19,765 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry xml-apis.jar in /C:/Users/akken/Downloads/jbpm-server/bin/content/business-central.war/WEB-INF/lib/serializer-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2022-05-17 13:51:19,816 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry xercesImpl.jar in /C:/Users/akken/Downloads/jbpm-server/bin/content/business-central.war/WEB-INF/lib/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2022-05-17 13:51:19,817 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry xml-apis.jar in /C:/Users/akken/Downloads/jbpm-server/bin/content/business-central.war/WEB-INF/lib/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2022-05-17 13:51:19,818 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry serializer.jar in /C:/Users/akken/Downloads/jbpm-server/bin/content/business-central.war/WEB-INF/lib/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2022-05-17 13:51:21,451 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0190: Step handler org.jboss.as.domain.management.security.SecurityRealmAddHandler$ServiceInstallStepHandler@3878dd94 for operation add at address [
+    ("core-service" => "management"),
+    ("security-realm" => "ManagementRealm")
+] failed -- java.util.concurrent.TimeoutException: java.util.concurrent.TimeoutException
+	at org.jboss.as.controller.OperationContextImpl.waitForRemovals(OperationContextImpl.java:525)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1559)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1513)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1496)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1360)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:912)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:762)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:468)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1415)
+	at org.jboss.as.controller.ModelControllerImpl.boot(ModelControllerImpl.java:529)
+	at org.jboss.as.controller.AbstractControllerService.boot(AbstractControllerService.java:515)
+	at org.jboss.as.controller.AbstractControllerService.boot(AbstractControllerService.java:477)
+	at org.jboss.as.server.ServerService.boot(ServerService.java:459)
+	at org.jboss.as.server.ServerService.boot(ServerService.java:412)
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:416)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022-05-17 13:51:21,452 ERROR [org.jboss.as.controller.client] (Controller Boot Thread) WFLYCTL0190: Step handler org.jboss.as.domain.management.security.SecurityRealmAddHandler$ServiceInstallStepHandler@3878dd94 for operation add at address [
+    ("core-service" => "management"),
+    ("security-realm" => "ManagementRealm")
+] failed -- java.util.concurrent.TimeoutException
+2022-05-17 13:51:21,458 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-5) WFLYJCA0119: Unbinding connection factory named java:/JmsXA to alias java:jboss/DefaultJMSConnectionFactory
+2022-05-17 13:51:21,459 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) WFLYJCA0011: Unbound Jakarta Connectors ConnectionFactory [java:/JmsXA]
+2022-05-17 13:51:21,460 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:/ConnectionFactory
+2022-05-17 13:51:21,461 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2022-05-17 13:51:22,099 INFO  [org.apache.activemq.artemis.ra] (ServerService Thread Pool -- 103) AMQ151003: resource adaptor stopped
+2022-05-17 13:51:24,552 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 103) AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.16.0 [6cef73b4-d2dd-11ec-8ca6-780cb86d5d8a] stopped, uptime 5 minutes
+2022-05-17 13:51:25,294 INFO  [org.kie.server.services.impl.controller.ControllerConnectRunnable] (KieServer-ControllerConnect) Connected to controller, quiting connector thread
+2022-05-17 13:51:26,461 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0190: Step handler org.jboss.as.controller.AbstractControllerService$ModelControllerServiceInitializationBootStepHandler$1@52cd55fd for operation boottime-controller-initializer-step at address [] failed -- java.util.concurrent.TimeoutException: java.util.concurrent.TimeoutException
+	at org.jboss.as.controller.OperationContextImpl.waitForRemovals(OperationContextImpl.java:525)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1559)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1513)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1496)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1360)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:912)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:762)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:468)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1415)
+	at org.jboss.as.controller.ModelControllerImpl.boot(ModelControllerImpl.java:529)
+	at org.jboss.as.controller.AbstractControllerService.boot(AbstractControllerService.java:515)
+	at org.jboss.as.controller.AbstractControllerService.boot(AbstractControllerService.java:477)
+	at org.jboss.as.server.ServerService.boot(ServerService.java:459)
+	at org.jboss.as.server.ServerService.boot(ServerService.java:412)
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:416)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022-05-17 13:51:26,462 ERROR [org.jboss.as.controller.client] (Controller Boot Thread) WFLYCTL0190: Step handler org.jboss.as.controller.AbstractControllerService$ModelControllerServiceInitializationBootStepHandler$1@52cd55fd for operation boottime-controller-initializer-step at address [] failed -- java.util.concurrent.TimeoutException
+2022-05-17 13:51:26,466 ERROR [org.jboss.as.server] (ServerService Thread Pool -- 47) WFLYSRV0022: Deploy of deployment "kie-server.war" was rolled back with no failure message
+2022-05-17 13:51:26,469 ERROR [org.jboss.as.server] (ServerService Thread Pool -- 47) WFLYSRV0022: Deploy of deployment "jbpm-casemgmt.war" was rolled back with no failure message
+2022-05-17 13:51:26,470 ERROR [org.jboss.as.server] (ServerService Thread Pool -- 47) WFLYSRV0022: Deploy of deployment "business-central.war" was rolled back with no failure message
+2022-05-17 13:51:26,472 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2022-05-17 13:51:26,474 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/jBPMDS]
+2022-05-17 13:51:26,476 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2022-05-17 13:51:26,519 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2022-05-17 13:51:26,521 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2022-05-17 13:51:26,530 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host stopping
+2022-05-17 13:51:26,531 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0004: Undertow 2.2.5.Final stopping
+2022-05-17 13:51:26,553 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2022-05-17 13:51:28,487 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment business-central.war (runtime-name: business-central.war) in 22084ms
+2022-05-17 13:51:28,527 FATAL [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0056: Server boot has failed in an unrecoverable manner; exiting. See previous messages for details.
+2022-05-17 13:51:28,553 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Full 23.0.2.Final (WildFly Core 15.0.1.Final) stopped in 13ms
+2022-05-17 13:57:26,057 INFO  [org.jboss.modules] (main) JBoss Modules version 1.11.0.Final
+2022-05-17 13:57:26,665 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
+2022-05-17 13:57:26,683 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2022-05-17 13:57:26,833 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 23.0.2.Final (WildFly Core 15.0.1.Final) starting
+2022-05-17 13:57:26,835 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\akken\Downloads\jbpm-server\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_181\jre
+	java.io.tmpdir = C:\Users\akken\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\akken\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\akken\AppData\Local\Programs\Python\Python310\;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\akken\AppData\Local\GitHubDesktop\bin;C:\Users\akken\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\akken\AppData\Local\Microsoft\WindowsApps;C:\Users\akken\AppData\Roaming\npm;C:\Users\akken\AppData\Local\Box\Box Edit\;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_181-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_181
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.181-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\akken\Downloads\jbpm-server
+	jboss.host.name = govardhan
+	jboss.modules.dir = C:\Users\akken\Downloads\jbpm-server\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = govardhan
+	jboss.qualified.host.name = govardhan
+	jboss.server.base.dir = C:\Users\akken\Downloads\jbpm-server\standalone
+	jboss.server.config.dir = C:\Users\akken\Downloads\jbpm-server\standalone\configuration
+	jboss.server.data.dir = C:\Users\akken\Downloads\jbpm-server\standalone\data
+	jboss.server.deploy.dir = C:\Users\akken\Downloads\jbpm-server\standalone\data\content
+	jboss.server.log.dir = C:\Users\akken\Downloads\jbpm-server\standalone\log
+	jboss.server.name = govardhan
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\akken\Downloads\jbpm-server\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\akken\Downloads\jbpm-server\standalone\configuration/logging.properties
+	module.path = C:\Users\akken\Downloads\jbpm-server\modules
+	org.jboss.boot.log.file = C:\Users\akken\Downloads\jbpm-server\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_181\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\akken\Downloads\jbpm-server\jboss-modules.jar -mp C:\Users\akken\Downloads\jbpm-server\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\akken\Downloads\jbpm-server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp437
+	sun.stdout.encoding = cp437
+	user.country = US
+	user.dir = C:\Users\akken\Downloads\jbpm-server\bin
+	user.home = C:\Users\akken
+	user.language = en
+	user.name = akken
+	user.script = 
+	user.timezone = America/New_York
+	user.variant = 
+2022-05-17 13:57:26,836 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx1512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=512m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\akken\Downloads\jbpm-server\standalone\log\server.log -Dlogging.configuration=file:C:\Users\akken\Downloads\jbpm-server\standalone\configuration/logging.properties 
+2022-05-17 13:57:28,158 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.15.3.Final
+2022-05-17 13:57:28,337 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 22) WFLYCTL0033: Extension 'security' is deprecated and may not be supported in future versions
+2022-05-17 13:57:28,818 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-05-17 13:57:28,861 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 20) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-05-17 13:57:28,905 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment business-central.war
+2022-05-17 13:57:28,907 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment jbpm-casemgmt.war
+2022-05-17 13:57:28,909 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment kie-server.war
+2022-05-17 13:57:33,178 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2022-05-17 13:57:33,205 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.8.4.Final
+2022-05-17 13:57:33,250 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.8.4.Final
+2022-05-17 13:57:33,341 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 68) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2022-05-17 13:57:33,345 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 48) WFLYHEALTH0001: Activating Base Health Subsystem
+2022-05-17 13:57:33,387 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 50) WFLYRS0016: RESTEasy version 3.15.1.Final
+2022-05-17 13:57:33,405 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 55) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2022-05-17 13:57:33,407 INFO  [org.wildfly.extension.microprofile.jwt.smallrye._private] (ServerService Thread Pool -- 59) WFLYJWT0001: Activating WildFly MicroProfile JWT Subsystem
+2022-05-17 13:57:33,416 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 61) WFLYNAM0001: Activating Naming Subsystem
+2022-05-17 13:57:33,425 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 70) WFLYWS0002: Activating WebServices Extension
+2022-05-17 13:57:33,431 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 58) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2022-05-17 13:57:33,450 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 60) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2022-05-17 13:57:33,545 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2022-05-17 13:57:33,546 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2022-05-17 13:57:33,576 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 2.2.5.Final starting
+2022-05-17 13:57:33,594 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 49) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2022-05-17 13:57:33,606 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 69) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2022-05-17 13:57:33,616 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 41) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2022-05-17 13:57:33,628 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.4.27.Final)
+2022-05-17 13:57:33,769 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2022-05-17 13:57:33,831 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.20.Final
+2022-05-17 13:57:33,896 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0014: Creating file handler for path 'C:\Users\akken\Downloads\jbpm-server/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2022-05-17 13:57:33,943 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2022-05-17 13:57:34,010 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) Queuing requests.
+2022-05-17 13:57:34,040 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2022-05-17 13:57:34,050 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2022-05-17 13:57:34,068 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2022-05-17 13:57:34,447 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2022-05-17 13:57:34,474 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore C:\Users\akken\Downloads\jbpm-server\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
